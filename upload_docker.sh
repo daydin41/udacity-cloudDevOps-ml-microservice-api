@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=daydin41/udacity_devops_p4
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login -u daydin41
+docker tag api $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath
