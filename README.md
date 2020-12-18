@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/daydin41/udacity-cloudDevOps-ml-microservice-api.svg?style=svg)](https://circleci.com/gh/daydin41/udacity-cloudDevOps-ml-microservice-api)
 
 ## Project Overview
 
